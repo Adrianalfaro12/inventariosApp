@@ -1,0 +1,21 @@
+{
+  "name": "serverhttp1",
+  "version": "1.0.0",
+  "description": "Un ejemplo básico de server http",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "http",
+    "fes",
+    "aragon"
+  ],
+  "author": "adrianRA",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0"
+  }
+}
