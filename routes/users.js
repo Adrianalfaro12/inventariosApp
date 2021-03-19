@@ -42,14 +42,14 @@ router.post('/login', ( req , res , next )=>{
 
 
 
-router.get('/logout', (req , res , next )=>{
-  req.session.destroy((falla)=>{
-    if()falla{
-      res.send(501,"Error"):
-    }else{
-      res.redirect('/');
-    }
-  });
-});
+//  router.get('/logout', (req , res , next )=>{
+//   req.session.destroy((falla)=>{
+//     if(falla
+//       res.send(501,"Error"):
+//     else{
+//       res.redirect('/');
+//     }
+//   });
+// });
 
 module.exports = router;

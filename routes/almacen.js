@@ -8,11 +8,11 @@ router.get('/alta',(req , res , next)=>{
 });
 
 router.get('/reporte',(req , res , next)=>{
-  res.render("almacen/frmReporte");
+  res.render("almacen/frmReporte",{ user : ses.userdata , token:ses.token});
 });
 
 router.get('/baja',(req , res , next)=>{
-  res.render("almacen/frmBaja");
+  res.render("almacen/frmBaja",{ user : ses.userdata , token:ses.token});
 });
 
 module.exports = router;
